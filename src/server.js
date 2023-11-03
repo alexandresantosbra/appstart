@@ -33,6 +33,6 @@ router.get('/', (req, res) => {
 app.use(router);
 
 // Iniciar a aplicação
-app.listen(3000, () => {
-  console.log('Aplicação iniciada na porta 3000');
+app.listen(4000, () => {
+  console.log('Aplicação iniciada na porta 4000');
 });
